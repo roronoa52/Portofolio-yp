@@ -1,7 +1,7 @@
 import React from "react";
 import pdf from "../assets/resume-yp.pdf";
-
 import Yp from "../assets/img/yp.png";
+import Fade from 'react-reveal/Fade';
 
 function Hero() {
   return (
@@ -12,6 +12,7 @@ function Hero() {
       <div className="container mx-auto h-full">
         <div className="flex items-center h-full pt-8">
           {/* Left */}
+          <Fade left cascade>
           <div className="flex-1 flex flex-col items-center lg:items-start">
             <p className="text-lg text-accent mb-[22px]">
               Hey, I'm Farhan Yudha Pratama
@@ -29,10 +30,13 @@ function Hero() {
               </a>
             </button>
           </div>
+          </Fade>
           {/* Right */}
+          <Fade right cascade>
           <div className="hidden lg:flex flex-1 justify-end items-end h-full">
             <img src={Yp} className="w-[25rem]" alt="" />
           </div>
+          </Fade>
         </div>
       </div>
     </section>

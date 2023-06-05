@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
+import Fade from 'react-reveal/Fade';
 
 // Import Component
-import Logo from "../assets/img/logo.svg";
-import { Link } from "react-scroll";
 import Nav from "../components/Nav";
 import NavMobile from "../components/NavMobile";
 import Socials from "../components/Socials";
@@ -17,7 +16,7 @@ const Header = () => {
   });
 
   return (
-    // <Header className={` ${bg ? 'bg-tertiary h-20' : 'h-24'} flex items-center fixed top-0 w-full`}>
+    <Fade bottom cascade>
     <header
       className={` ${
         bg ? "bg-tertiary h-20" : "h-24"
@@ -25,7 +24,7 @@ const Header = () => {
     >
       <div className="container mx-auto h-full flex items-center justify-between">
         {/* logo */}
-        <a href="#">
+        <a href="/">
           <h1 className="text-4xl">Farhan</h1>
         </a>
         {/* nav */}
@@ -42,6 +41,7 @@ const Header = () => {
         </div>
       </div>
     </header>
+    </Fade>
   );
 };
 

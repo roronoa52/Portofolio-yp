@@ -1,8 +1,10 @@
 import React from "react";
 import { contact } from "../data";
+import Fade from 'react-reveal/Fade';
 
 const Contact = () => {
   return (
+    <Fade bottom cascade >
     <section id="contact" className="section bg-primary">
       <div className="container mx-auto">
         <div className="flex flex-col items-center justify-center">
@@ -48,6 +50,7 @@ const Contact = () => {
         </div>
       </div>
     </section>
+    </Fade>
   );
 };
 

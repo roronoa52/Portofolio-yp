@@ -1,9 +1,10 @@
 import React from "react";
-
+import Fade from 'react-reveal/Fade';
 import { services } from "../data";
 
 const Services = () => {
   return (
+    <Fade bottom cascade >
     <section id="services" className="section bg-tertiary">
       <div className="container mx-auto">
         <div className="flex flex-col items-center text-center">
@@ -30,6 +31,7 @@ const Services = () => {
         </div>
       </div>
     </section>
+    </Fade>
   );
 };
 

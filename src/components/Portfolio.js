@@ -1,8 +1,10 @@
 import React from "react";
 import Projects from "../components/Projects";
+import Fade from 'react-reveal/Fade';
 
 function Portfolio() {
   return (
+    <Fade bottom cascade>
     <section id="portfolio" className="section bg-primary min-h-[1400px]">
       <div className="container mx-auto">
         <div className="flex flex-col items-center text-center">
@@ -16,6 +18,7 @@ function Portfolio() {
         <Projects />
       </div>
     </section>
+    </Fade>
   );
 }
 

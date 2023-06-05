@@ -1,8 +1,10 @@
 import React from "react";
 import TestimonialSlider from "./TestimonialSlider";
+import Fade from 'react-reveal/Fade';
 
 const Testimonials = () => {
   return (
+    <Fade bottom cascade >
     <section id="testimonials" className="section bg-secondary">
       <div className="container mx-auto">
         <div className="flex flex-col items-center justify-center text-center">
@@ -16,6 +18,7 @@ const Testimonials = () => {
         <TestimonialSlider />
       </div>
     </section>
+    </Fade>
   );
 };
 
