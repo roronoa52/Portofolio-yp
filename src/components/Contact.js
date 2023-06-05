@@ -10,10 +10,7 @@ const Contact = () => {
             Contact Me
           </h2>
           <p className="subtitle">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-            possimus facilis blanditiis facere vero dolor, dolores tempora
-            molestiae rerum sed nam voluptatum laboriosam repellendus velit
-            doloribus maiores minus labore quisquam.
+          contact me to inform 
           </p>
         </div>
         <div className="flex flex-col lg:gap-x-8 lg:flex-row">

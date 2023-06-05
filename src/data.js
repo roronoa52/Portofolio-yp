@@ -4,8 +4,6 @@ import {
   FiGithub,
   FiLayout,
   FiSettings,
-  FiPenTool,
-  FiTag,
   FiMail,
   FiMapPin,
 } from "react-icons/fi";
@@ -211,12 +209,12 @@ export const contact = [
     icon: <FiMail />,
     title: "Have a question?",
     subtitle: "I am here to help you.",
-    description: "Email me at hello@youremail.com",
+    description: "Email me at farhan.yudha2016we@gmail.com",
   },
   {
     icon: <FiMapPin />,
     title: "Current Location",
-    subtitle: "Bucharest, Romania",
+    subtitle: "Medan, Indonesia",
     description: "Serving clients worldwide",
   },
 ];
