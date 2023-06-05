@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../assets/img/about.webp";
+import Image from "../assets/img/ilustration.jpg";
 
 function About() {
   return (

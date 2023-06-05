@@ -11,13 +11,10 @@ const Services = () => {
             What I do for clients
           </h2>
           <p className="subtitle">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro
-            ipsum similique sed fugit laudantium incidunt suscipit sunt dolorum
-            possimus deserunt necessitatibus, perferendis harum non nisi
-            voluptates expedita iure voluptatibus odio.
+          Here's something to offer my prospective clients
           </p>
         </div>
-        <div className="grid lg:grid-cols-4 gap-8">
+        <div className="grid lg:grid-cols-2 gap-8">
           {services.map((service, index) => {
             const { icon, name, description } = service;
             return (

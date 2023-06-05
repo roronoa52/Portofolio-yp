@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h1 className="text-4xl">YP</h1>
+            <h1 className="text-4xl">Farhan</h1>
           </div>
 
           <p>&copy; 2023 Farhan Yudha Pratama</p>

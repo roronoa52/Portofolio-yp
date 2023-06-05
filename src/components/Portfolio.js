@@ -10,10 +10,7 @@ function Portfolio() {
             My Latest Work
           </h2>
           <p className="subtitle">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-            voluptatibus placeat nemo nobis, aperiam nesciunt soluta officia,
-            illum, ratione autem error vero velit accusamus reiciendis esse quam
-            sapiente obcaecati. Similique.
+          Here are some personal projects I've worked on using MERN technology
           </p>
         </div>
         <Projects />

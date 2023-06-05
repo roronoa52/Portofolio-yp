@@ -10,10 +10,7 @@ const Testimonials = () => {
             What other people says
           </h2>
           <p className="subtitle">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam,
-            maiores sed. Quam ipsam adipisci voluptatibus! Assumenda vel et
-            consequatur recusandae, iste eius soluta eum. Ipsam laborum omnis
-            illo. Dolor, totam?
+          Here's how my clients evaluate what I do
           </p>
         </div>
         <TestimonialSlider />

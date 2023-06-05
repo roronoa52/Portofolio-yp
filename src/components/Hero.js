@@ -25,7 +25,7 @@ function Hero() {
             </p>
             <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all">
               <a href={pdf} download="FileName.pdf">
-                Download
+                Download CV
               </a>
             </button>
           </div>

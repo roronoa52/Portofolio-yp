@@ -35,9 +35,7 @@ import SkillImg7 from "./assets/img/skills/git.png";
 import SkillImg8 from "./assets/img/skills/figma.png";
 
 // testimonial images
-import TestiImage1 from "./assets/img/testimonials/ela1.jpeg";
-import TestiImage2 from "./assets/img/testimonials/eimi2.jpeg";
-import TestiImage3 from "./assets/img/testimonials/eimi3.jpeg";
+import TestiImage1 from "./assets/img/testimonials/404.jpg";
 
 // navigation
 export const navigation = [
@@ -187,49 +185,23 @@ export const services = [
     icon: <FiLayout />,
     name: "Web Design",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+      "Web design is the process of designing and creating the visual appearance and structure of a web page. It involves using design elements such as layout, color, graphics, and text to create an attractive and functional user interface. ",
   },
   {
     icon: <FiSettings />,
     name: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
-  },
-  {
-    icon: <FiPenTool />,
-    name: "Branding",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
-  },
-  {
-    icon: <FiTag />,
-    name: "SEO",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
-  },
+      "Web development is the process of creating and maintaining websites using various technologies and programming languages. It involves the design, development, implementation, and management of all aspects related to the website. Web development includes both frontend (display and user interaction) and backend (business logic and data management) coding.",
+  }
 ];
 
 // testimonials
 export const testimonials = [
   {
     authorImg: TestiImage1,
-    authorText: "Ella Freya pernah beli disini dan saya nyicip dikit",
-    authorName: "Ella Freya",
-    authorPosition: "Istri Saya",
-  },
-  {
-    authorImg: TestiImage2,
-    authorText:
-      "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
-    authorName: "Olivia Doe",
-    authorPosition: "Head of Design, Google",
-  },
-  {
-    authorImg: TestiImage3,
-    authorText:
-      "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
-    authorName: "Olivia Doe",
-    authorPosition: "Head of Design, Google",
+    authorText: "404 Not Found",
+    authorName: "404 Not Found",
+    authorPosition: "404 Not Found",
   },
 ];
 
