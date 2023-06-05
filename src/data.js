@@ -20,12 +20,10 @@ import BehanceBrandIcon from "./assets/img/brands/behance.png";
 import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 
 // projects images
-import Project1 from "./assets/img/projects/p1.webp";
-import Project2 from "./assets/img/projects/p2.webp";
-import Project3 from "./assets/img/projects/p3.webp";
-import Project4 from "./assets/img/projects/p4.webp";
-import Project5 from "./assets/img/projects/p5.webp";
-import Project6 from "./assets/img/projects/p6.webp";
+import Staycation from "./assets/img/projects/staycation.png";
+import Baznas from "./assets/img/projects/baznas.png";
+import AdminStaycation from "./assets/img/projects/admin-staycation.png";
+
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
@@ -113,7 +111,7 @@ export const brands = [
 export const projectsData = [
   {
     id: "1",
-    image: Project1,
+    image: Staycation,
     name: "Staycation",
     category: "UI/UX design",
     href:"",
@@ -121,7 +119,7 @@ export const projectsData = [
   },
   {
     id: "2",
-    image: Project2,
+    image: Staycation,
     name: "Staycation",
     category: "web development",
     href:"https://mern-staycation.pages.dev",
@@ -129,7 +127,7 @@ export const projectsData = [
   },
   {
     id: "5",
-    image: Project5,
+    image: AdminStaycation,
     name: "Admin Staycation",
     category: "web development",
     href:"https://mern-staycation-server.vercel.app/admin/signin",
@@ -137,7 +135,7 @@ export const projectsData = [
   },
   {
     id: "6",
-    image: Project6,
+    image: Baznas,
     name: "Baznas",
     category: "web development",
     href:"https://baznas-pwt.pages.dev",
