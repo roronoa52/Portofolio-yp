@@ -1,9 +1,7 @@
 //  icons
 import {
-  FiYoutube,
   FiInstagram,
   FiGithub,
-  FiDribbble,
   FiLayout,
   FiSettings,
   FiPenTool,
@@ -11,6 +9,8 @@ import {
   FiMail,
   FiMapPin,
 } from "react-icons/fi";
+
+import {AiFillLinkedin} from "react-icons/ai"
 
 // companies icons
 import FreelancerBrandIcon from "./assets/img/brands/freelancer.png";
@@ -32,7 +32,6 @@ import SkillImg1 from "./assets/img/skills/html5.png";
 import SkillImg2 from "./assets/img/skills/css3.png";
 import SkillImg3 from "./assets/img/skills/js.png";
 import SkillImg4 from "./assets/img/skills/reactjs.png";
-import SkillImg5 from "./assets/img/skills/nextjs.png";
 import SkillImg6 from "./assets/img/skills/nodejs.png";
 import SkillImg7 from "./assets/img/skills/git.png";
 import SkillImg8 from "./assets/img/skills/figma.png";
@@ -73,20 +72,16 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: "",
-  },
-  {
     icon: <FiInstagram />,
-    href: "",
+    href: "https://www.instagram.com/farhan_yp52/",
   },
   {
     icon: <FiGithub />,
-    href: "",
+    href: "https://github.com/farhanyp",
   },
   {
-    icon: <FiDribbble />,
-    href: "",
+    icon: <AiFillLinkedin />,
+    href: "https://www.linkedin.com/in/farhan-yudha-pratama-3b095a17a/",
   },
 ];
 
@@ -119,38 +114,34 @@ export const projectsData = [
   {
     id: "1",
     image: Project1,
-    name: "project name 1",
+    name: "Staycation",
     category: "UI/UX design",
+    href:"",
+    desc: "Website Staycation merupakan website untuk membantu para travelers dalam mencari tempat penginapan dan tempat liburan"
   },
   {
     id: "2",
     image: Project2,
-    name: "project name 2",
+    name: "Staycation",
     category: "web development",
-  },
-  {
-    id: "3",
-    image: Project3,
-    name: "project name 3",
-    category: "UI/UX design",
-  },
-  {
-    id: "4",
-    image: Project4,
-    name: "project name 4",
-    category: "branding",
+    href:"https://mern-staycation.pages.dev",
+    desc: "Website Staycation merupakan website untuk membantu para travelers dalam mencari tempat penginapan dan tempat liburan"
   },
   {
     id: "5",
     image: Project5,
-    name: "project name 5",
+    name: "Admin Staycation",
     category: "web development",
+    href:"https://mern-staycation-server.vercel.app/admin/signin",
+    desc: "Website Admin Staycation merupakan website untuk membantu para penyedia tempat liburan dan penginapan dalam menjual"
   },
   {
     id: "6",
     image: Project6,
-    name: "project name 6",
+    name: "Baznas",
     category: "web development",
+    href:"https://baznas-pwt.pages.dev",
+    desc: "Website Baznas banyumas merupakan website untuk penyedia jasa zakat infaq sadaqah dalam lingkup banyumas"
   },
 ];
 
@@ -164,9 +155,6 @@ export const projectsNav = [
   },
   {
     name: "web development",
-  },
-  {
-    name: "branding",
   },
 ];
 
@@ -183,9 +171,6 @@ export const skills = [
   },
   {
     image: SkillImg4,
-  },
-  {
-    image: SkillImg5,
   },
   {
     image: SkillImg6,

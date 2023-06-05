@@ -17,11 +17,11 @@ function Hero() {
               Hey, I'm Farhan Yudha Pratama
             </p>
             <h1 className="text-4xl text-center leading-[44px] md:text-5xl md:leading-tight lg:text-left lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]">
-              I Full Stack Web Developer
+            I'm a Full-Stack Web Developer
             </h1>
             <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque ex
-              minima velit ratione accusantium laudantium
+            I Fresh Graduated from Telkom Institute of Technology Purwokerto 
+            and I am a MERN Stack Developer.
             </p>
             <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all">
               <a href={pdf} download="FileName.pdf">

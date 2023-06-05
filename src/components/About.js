@@ -14,17 +14,15 @@ function About() {
           <div className="flex flex-col items-center lg:items-start lg:text-left">
             <div className="flex flex-col">
               <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block">
-                Farhan Yp
+                Farhan Yudha Pratama
               </h2>
-              <p className="mb-4 text-accent">Freelance Web Developer</p>
+              <p className="mb-4 text-accent">MERN Web Developer</p>
               <hr className="mb-8 opacity-5" />
               <p className="mb-8">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-                perspiciatis eum ut magni accusamus asperiores alias doloremque
-                impedit quidem dolor autem explicabo nulla natus nostrum, sequi
-                illo eligendi, quasi deleniti. <br /> Lorem ipsum dolor sit
-                amet, consectetur adipisicing elit. Atque saepe consectetur
-                provident nihil repellendus
+              My name is Farhan Yudha Pratama and I am a MERN stack developer, 
+          I also just graduated from the telkom purwokerto institute of technology 
+          majoring in informatics engineering. 
+          I have the passion to learn more about web development and also the passion to improvise myself in every situation that I am faced with.
               </p>
             </div>
             <button className="btn btn-md bg-accent hover:bg-accent-hover transition-all">
