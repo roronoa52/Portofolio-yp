@@ -2,7 +2,6 @@ import React from "react";
 import Fade from 'react-reveal/Fade';
 
 const Project = ({ item }) => {
-  console.log(item);
   return (
     <Fade bottom cascade delay={item.id*100}>
       <div key={item.id} className="flex flex-col items-center text-center">
