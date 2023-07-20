@@ -16,7 +16,7 @@ const Header = () => {
   });
 
   return (
-    <Fade bottom cascade>
+    // <Fade bottom cascade>
     <header
       className={` ${
         bg ? "bg-tertiary h-20" : "h-24"
@@ -41,7 +41,7 @@ const Header = () => {
         </div>
       </div>
     </header>
-    </Fade>
+    // </Fade>
   );
 };
 
