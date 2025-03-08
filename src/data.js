@@ -2,10 +2,10 @@
 import {
   FiInstagram,
   FiGithub,
-  FiLayout,
-  FiSettings,
+  FiCode,
   FiMail,
   FiMapPin,
+  FiSettings,
 } from "react-icons/fi";
 
 import {AiFillLinkedin} from "react-icons/ai"
@@ -224,16 +224,16 @@ export const skills = [
 // services
 export const services = [
   {
-    icon: <FiLayout />,
-    name: "Web Design",
+    icon: <FiCode />,
+    name: "Backend Development",
     description:
-      "Web design is the process of designing and creating the visual appearance and structure of a web page. It involves using design elements such as layout, color, graphics, and text to create an attractive and functional user interface. ",
+      "I specialize in building robust, scalable, and secure backend systems using technologies like Golang, Node.js, Laravel, and Express.js. From designing efficient APIs to optimizing database performance, I ensure your application's core functionality is reliable and high-performing."
   },
   {
     icon: <FiSettings />,
-    name: "Web Development",
+    name: "API Development & Integration",
     description:
-      "Web development is the process of creating and maintaining websites using various technologies and programming languages. It involves the design, development, implementation, and management of all aspects related to the website. Web development includes both frontend (display and user interaction) and backend (business logic and data management) coding.",
+      "I design and integrate RESTful APIs to connect your application with third-party services or internal systems. From payment gateways like Stripe to custom data retrieval APIs, I ensure smooth communication and functionality across your platform."
   }
 ];
 
