@@ -12,7 +12,7 @@ function Portfolio() {
             My Latest Work
           </h2>
           <p className="subtitle">
-          Here are some personal projects I've worked on using MERN technology
+          Here are some personal projects I've worked on using MERN technology and API integrations.
           </p>
         </div>
         <Projects />

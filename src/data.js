@@ -18,6 +18,10 @@ import BehanceBrandIcon from "./assets/img/brands/behance.png";
 import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 
 // projects images
+import notfound from "./assets/img/testimonials/404.jpg";
+import Tixia from "./assets/img/projects/tixia.png";
+import Seven from "./assets/img/projects/7seven.png";
+import Semina from "./assets/img/projects/semina.png";
 import Staycation from "./assets/img/projects/staycation.png";
 import Baznas from "./assets/img/projects/baznas.png";
 import AdminStaycation from "./assets/img/projects/admin-staycation.png";
@@ -107,6 +111,46 @@ export const brands = [
 export const projectsData = [
   {
     id: "1",
+    image: notfound,
+    name: "Prestige",
+    category: "Web Development",
+    href:"",
+    desc: "(Still Development). this application is a vehicle rental application such as luxury cars, yachts, helicopters, motorbike planes and even like uber"
+  },
+  {
+    id: "2",
+    image: Tixia,
+    name: "Tixia",
+    category: "Web Development",
+    href:"",
+    desc: "(Still Development). This app is a hotel booking and airplane ticket purchase service provider."
+  },
+  {
+    id: "3",
+    image: notfound,
+    name: "Report Pegadaian",
+    category: "Web Development",
+    href:"",
+    desc: "(Still Development). This application is an internal pawnshop application for reporting"
+  },
+  {
+    id: "4",
+    image: Seven,
+    name: "7Seven",
+    category: "Web Development",
+    href:"https://7seven.vercel.app",
+    desc: "This project serves to do the bending for the billiard table."
+  },
+  {
+    id: "5",
+    image: Semina,
+    name: "Semina",
+    category: "Web Development",
+    href:"https://landing-page-semina.vercel.app",
+    desc: "I made this web application to practice my skills Mongo DB, Express JS, React JS, Node JS and API"
+  },
+  {
+    id: "6",
     image: Staycation,
     name: "Staycation",
     category: "UI/UX design",
@@ -114,7 +158,7 @@ export const projectsData = [
     desc: "Website Staycation merupakan website untuk membantu para travelers dalam mencari tempat penginapan dan tempat liburan"
   },
   {
-    id: "2",
+    id: "7",
     image: Staycation,
     name: "Staycation",
     category: "web development",
@@ -122,7 +166,7 @@ export const projectsData = [
     desc: "Website Staycation merupakan website untuk membantu para travelers dalam mencari tempat penginapan dan tempat liburan"
   },
   {
-    id: "5",
+    id: "8",
     image: AdminStaycation,
     name: "Admin Staycation",
     category: "web development",
@@ -130,7 +174,7 @@ export const projectsData = [
     desc: "Website Admin Staycation merupakan website untuk membantu para penyedia tempat liburan dan penginapan dalam menjual"
   },
   {
-    id: "6",
+    id: "9",
     image: Baznas,
     name: "Baznas",
     category: "web development",

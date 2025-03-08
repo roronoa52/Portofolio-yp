@@ -20,13 +20,10 @@ function About() {
               <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block">
                 Farhan Yudha Pratama
               </h2>
-              <p className="mb-4 text-accent">MERN Web Developer</p>
+              <p className="mb-4 text-accent">Backend Developer</p>
               <hr className="mb-8 opacity-5" />
               <p className="mb-8">
-              My name is Farhan Yudha Pratama and I am a MERN stack developer, 
-          I also just graduated from the telkom purwokerto institute of technology 
-          majoring in informatics engineering. 
-          I have the passion to learn more about web development and also the passion to improvise myself in every situation that I am faced with.
+              I’m Farhan Yudha Pratama, a MERN Stack Developer passionate about building modern web applications. With 3 years of experience in backend development, I specialize in Golang, Node.js, and Laravel. I thrive on solving complex problems and creating efficient, scalable solutions. Continuously learning and adapting to new technologies is at the core of my work ethic. I enjoy turning ideas into functional, user-friendly digital experiences. Let’s connect and create something impactful together!
               </p>
             </div>
             <button className="btn btn-md bg-accent hover:bg-accent-hover transition-all">
